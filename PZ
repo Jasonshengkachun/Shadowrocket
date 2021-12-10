@@ -7,10 +7,12 @@ dns-server = https://doh-e15417b9.doh.pub/dns-query
 ipv6 = false
 
 [Rule]
+DOMAIN-SUFFIX,icloud.com.cn,DIRECT
+DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT
 DOMAIN-SUFFIX,ads.cdn.tvb.com,PROXY
 DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt,REJECT
-#DOMAIN-SET,https://cdn.jsdelivr.net/gh/neoFelhz/neohosts@gh-pages/full/hosts.txt,REJECT
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/neoFelhz/neohosts@gh-pages/full/hosts.txt,REJECT
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list,REJECT
 DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising_Domain.list,REJECT
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Hijacking/Hijacking.list,REJECT
@@ -24,11 +26,11 @@ FINAL,PROXY
 
 [Host]
 *testflight.apple.com = server:8.8.4.4
+*.taobao.com = server:119.28.28.28
 *.qq.com = server:119.28.28.28
 *.tencent.com = server:119.28.28.28
 *.weixin.com = server:119.28.28.28
 *.bilibili.com = server:119.29.29.29
-hdslb.com = server:119.29.29.29
 *.163.com = server:119.29.29.29
 *.126.com = server:119.29.29.29
 *.126.net = server:119.29.29.29
@@ -36,10 +38,6 @@ hdslb.com = server:119.29.29.29
 *.netease.com = server:119.29.29.29
 *.mi.com = server:119.29.29.29
 *.xiaomi.com = server:119.29.29.29
-*.pcbeta.com = 120.52.19.113
-mtalk.google.com = 108.177.125.188
-dl.google.com = server:119.29.29.29
-dl.l.google.com = server:119.29.29.29
 
 [URL Rewrite]
 

@@ -43,7 +43,20 @@ dl.l.google.com = server:119.29.29.29
 
 [URL Rewrite]
 
-^http://(www.)?google.cn https://www.google.com 302
+# Redirect Google Search Service
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+# Redirect Google Maps Service
+^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
+
+# Redirect HTTP to HTTPS
+^https?:\/\/(www.)?taobao\.com\/ https://taobao.com/ 302
+^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
+^https?:\/\/(www.)?mi\.com\/ https://www.mi.com/ 302
+^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
+^https?:\/\/(www.)?suning\.com\/ https://suning.com/ 302
+^https?:\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
+
 
 [Script]
 Wechat = type=http-response,script-path=WeChat.js,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,max-size=131072,requires-body=true,timeout=50,enable=true

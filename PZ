@@ -26,7 +26,7 @@ FINAL,PROXY
 
 [Host]
 *testflight.apple.com = server:8.8.4.4
-*.taobao.com = server:119.28.28.28
+*.taobao.com = server:223.6.6.6
 *.qq.com = server:119.28.28.28
 *.tencent.com = server:119.28.28.28
 *.weixin.com = server:119.28.28.28

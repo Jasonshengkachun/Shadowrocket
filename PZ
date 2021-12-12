@@ -12,7 +12,6 @@ DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT
 DOMAIN-SUFFIX,ads.cdn.tvb.com,PROXY
 DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt,REJECT
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/neoFelhz/neohosts@gh-pages/full/hosts.txt,REJECT
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list,REJECT
 DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising_Domain.list,REJECT
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Hijacking/Hijacking.list,REJECT
@@ -40,6 +39,7 @@ FINAL,PROXY
 *.xiaomi.com = server:119.29.29.29
 
 [URL Rewrite]
+^http://mp.weixin.qq.com/mp/report _ reject
 
 # Redirect Google Search Service
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
@@ -72,14 +72,10 @@ FINAL,PROXY
 ^(http|https):\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.exposure\.get\/ - reject
 
 [Script]
-http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+
 testflight = type=http-request,script-path=https://gist.githubusercontent.com/NobyDa/9be418b93afc5e9c8a8f4d28ae403cf2/raw/TF_Download.js,pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$,max-size=131072,requires-body=true,timeout=10,enable=true
 
-#wechat = type=http-response,script-path=Wechat.js,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,max-size=131072,requires-body=true,timeout=10,enable=true
-
-
-#[rewrite_local]
-#^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+wechat = type=http-response,script-path=Wechat.js,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,max-size=131072,requires-body=true,timeout=10,enable=true
 
 [MITM]
 ca-passphrase = Shadowrocket

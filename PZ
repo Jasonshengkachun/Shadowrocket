@@ -7,9 +7,11 @@ dns-server = https://doh-e15417b9.doh.pub/dns-query,quic://dns.adguard.com
 ipv6 = false
 
 [Rule]
+
 DOMAIN-SUFFIX,icloud.com.cn,DIRECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,jpush.cn,REJECT
 DOMAIN-SUFFIX,ads.cdn.tvb.com,PROXY
 DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt,REJECT
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list,REJECT

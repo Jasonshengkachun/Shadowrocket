@@ -8,6 +8,7 @@ ipv6 = false
 
 [Rule]
 DOMAIN-SUFFIX,testflight.apple.com,PROXY
+
 DOMAIN-SUFFIX,icloud.com.cn,DIRECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT

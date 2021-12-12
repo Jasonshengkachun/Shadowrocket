@@ -7,7 +7,7 @@ dns-server =  quic://dns.adguard.com,https://doh-e15417b9.doh.pub/dns-query,
 ipv6 = false
 
 [Rule]
-
+DOMAIN-SUFFIX,testflight.apple.com,DIRECT
 DOMAIN-SUFFIX,icloud.com.cn,DIRECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT

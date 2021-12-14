@@ -84,9 +84,6 @@ FINAL,PROXY
 ^(http|https):\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get\/ - reject
 ^(http|https):\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.exposure\.get\/ - reject
 
-(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com
-
-(.+\.|^)(360|so)\.(cn|com)
 
 [Script]
 

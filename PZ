@@ -3,7 +3,7 @@
 bypass-system = true
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,passenger.t3go.cn,passenger.t3go.cn
 bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
-dns-server = https://doh-e15417b9.doh.pub/dns-query,
+dns-server = 1.1.1.1,1.0.0.1
 ipv6 = ture
 prefer-ipv6 = false
 
@@ -34,15 +34,17 @@ GEOIP,CN,DIRECT
 FINAL,PROXY
 
 [Host]
+*.meituan.com = server:119.29.29.29
+*.alipay.com = server:223.5.5.5
 *testflight.apple.com = server:8.8.4.4
 *.icloud.com = server:223.6.6.6
 *.icloud.com.cn = server:223.6.6.6
 *.apple.com = server:223.6.6.6
 *.taobao.com = server:223.6.6.6
-*.qq.com = server:119.28.28.28
-*.tencent.com = server:119.28.28.28
+*.qq.com = server:119.29.29.29
+*.tencent.com = server:119.29.29.29
 *.weixin.qq.com = server:119.29.29.29
-*.weixin.com = server:119.28.28.28
+*.weixin.com = server:119.29.29.29
 *.bilibili.com = server:119.29.29.29
 *.163.com = server:119.29.29.29
 *.126.com = server:119.29.29.29

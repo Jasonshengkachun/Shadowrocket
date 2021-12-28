@@ -34,6 +34,8 @@ GEOIP,CN,DIRECT
 FINAL,PROXY
 
 [Host]
+*.cainiao.com = server:223.5.5.5
+*.wx.qq.com = server:119.29.29.29
 *.meituan.com = server:119.29.29.29
 *.alipay.com = server:223.5.5.5
 *testflight.apple.com = server:8.8.4.4
@@ -53,6 +55,7 @@ FINAL,PROXY
 *.netease.com = server:119.29.29.29
 *.mi.com = server:119.29.29.29
 *.xiaomi.com = server:119.29.29.29
+*.sina.com = server:223.6.6.6
 
 [URL Rewrite]
 ^http://mp.weixin.qq.com/mp/report _ reject

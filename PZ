@@ -11,6 +11,7 @@ prefer-ipv6 = false
 
 DOMAIN-SUFFIX,*.douyinpic.com,DIRECT
 DOMAIN-SUFFIX,lianmengapi-lq.snssdk.com,DIRECT
+DOMAIN-SUFFIX,*.ecombdimg.com,DIRECT
 
 
 DOMAIN-SUFFIX,graph.instagram.com,PROXY

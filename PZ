@@ -33,6 +33,7 @@ DOMAIN-KEYWORD,umeng,REJECT
 DOMAIN-KEYWORD,usage,REJECT
 DOMAIN-SUFFIX,vungle.com,REJECT
 
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China.list,DIRECT
 
 # 常见广告关键字-拦截
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list, REJECT
@@ -61,7 +62,6 @@ IP-CIDR6,2001:b28:f23c::/47 ,PROXY
 IP-CIDR6,2001:b28:f23f::/48 ,PROXY
 IP-CIDR6,2a0a:f280:203::/48 ,PROXY
 
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China.list,DIRECT
 GEOIP,CN,DIRECT
 FINAL,PROXY
 

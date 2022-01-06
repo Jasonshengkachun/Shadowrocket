@@ -9,6 +9,10 @@ prefer-ipv6 = false
 
 [Rule]
 
+DOMAIN-SUFFIX,*.douyinpic.com,DIRECT
+DOMAIN-SUFFIX,lianmengapi-lq.snssdk.com,DIRECT
+
+
 DOMAIN-SUFFIX,graph.instagram.com,PROXY
 
 DOMAIN-SUFFIX,testflight.apple.com,PROXY

@@ -8,8 +8,8 @@ ipv6 = ture
 prefer-ipv6 = false
 
 [Rule]
-
-DOMAIN-KEYWORD,douyinpic,DIRECT
+DOMAIN-KEYWORD,douyin,DIRECT
+#DOMAIN-KEYWORD,douyinpic,DIRECT
 #DOMAIN-SUFFIX,lianmengapi-lq.snssdk.com,DIRECT
 DOMAIN-SUFFIX,*.ecombdimg.com,DIRECT
 

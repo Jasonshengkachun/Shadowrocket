@@ -9,13 +9,17 @@ prefer-ipv6 = false
 
 [Rule]
 
-
+DOMAIN-KEYWORD,qq,DIRECT
+DOMAIN-KEYWORD,wechat,DIRECT
+DOMAIN-SUFFIX,mmbiz.qpic.cn,DIRECT
+DOMAIN-SUFFIX,tencentwm.com,DIRECT
+DOMAIN-SUFFIX,tenpay.com,DIRECT
 DOMAIN-KEYWORD,douyin,DIRECT
 #DOMAIN-KEYWORD,douyinpic,DIRECT
 DOMAIN-SUFFIX,lianmengapi-lq.snssdk.com,DIRECT
 DOMAIN-SUFFIX,*.ecombdimg.com,DIRECT
 
-DOMAIN-SUFFIX,graph.instagram.com,PROXY
+DOMAIN-SUFFIX,graph.instagram.com,proxy
 
 DOMAIN-SUFFIX,testflight.apple.com,PROXY
 

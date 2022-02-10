@@ -53,7 +53,7 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/
 DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy_Domain.list,PROXY
 
 # > Tencent
-IP-CIDR,182.254.116.0/24,DIRECT,no-resolve
+#IP-CIDR,182.254.116.0/24,DIRECT,no-resolve
 
 # > Apple CDN
 DOMAIN,aod.itunes.apple.com,DIRECT

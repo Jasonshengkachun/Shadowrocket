@@ -9,8 +9,6 @@ prefer-ipv6 = false
 
 [Rule]
 
-DOMAIN-KEYWORD,qq,DIRECT
-DOMAIN-KEYWORD,wechat,DIRECT
 DOMAIN-SUFFIX,mmbiz.qpic.cn,DIRECT
 DOMAIN-SUFFIX,www.tencentwm.com,DIRECT
 DOMAIN-SUFFIX,tenpay.com,DIRECT

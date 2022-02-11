@@ -22,10 +22,6 @@ DOMAIN-KEYWORD,douyin,DIRECT
 DOMAIN-SUFFIX,lianmengapi-lq.snssdk.com,DIRECT
 DOMAIN-SUFFIX,*.ecombdimg.com,DIRECT
 
-DOMAIN-SUFFIX,graph.instagram.com,REJECT
-
-DOMAIN-SUFFIX,graph.facebook.com,REJECT
-
 DOMAIN-SUFFIX,testflight.apple.com,PROXY
 
 DOMAIN-SUFFIX,icloud.com.cn,DIRECT

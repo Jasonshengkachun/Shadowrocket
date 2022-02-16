@@ -9,6 +9,10 @@ prefer-ipv6 = false
 
 [Rule]
 
+DOMAIN-SUFFIX,graph.instagram.com,PROXY
+DOMAIN-SUFFIX,testflight.apple.com,PROXY
+DOMAIN-SUFFIX,ads.cdn.tvb.com,PROXY
+
 DOMAIN-SUFFIX,jpush.cn,REJECT
 DOMAIN-KEYWORD,lianmeng,REJECT
 DOMAIN-SUFFIX,mmstat.com,REJECT
@@ -269,10 +273,6 @@ IP-CIDR,149.154.164.0/22,Proxy
 IP-CIDR,149.154.168.0/22,Proxy
 IP-CIDR,149.154.172.0/22,Proxy
 
-DOMAIN-SUFFIX,graph.instagram.com,PROXY
-DOMAIN-SUFFIX,testflight.apple.com,PROXY
-DOMAIN-SUFFIX,ads.cdn.tvb.com,PROXY
-
 #instagram
 DOMAIN-SUFFIX,cdninstagram.com,Proxy
 #disqus
@@ -345,6 +345,7 @@ GEOIP,CN,DIRECT
 FINAL,PROXY
 
 [Host]
+*.tvb.com = server:1.0.0.1
 *.twitter.com = server:1.0.0.1
 *.fb.com = server:1.0.0.1
 *.fbcdn.net = server:1.0.0.1

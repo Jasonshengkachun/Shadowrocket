@@ -103,6 +103,8 @@ DOMAIN-SUFFIX,*.ecombdimg.com,DIRECT
 
 # > Tencent
 IP-CIDR,182.254.116.0/24,DIRECT,no-resolve
+IP-CIDR,203.205.238.0/23,DIRECT,no-resolve
+IP-CIDR,203.205.254.0/23,DIRECT,no-resolve
 
 # > Apple CDN
 DOMAIN,aod.itunes.apple.com,DIRECT

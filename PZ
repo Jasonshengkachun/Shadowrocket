@@ -345,7 +345,10 @@ GEOIP,CN,DIRECT
 FINAL,PROXY
 
 [Host]
+
 *.now.com = server:1.1.1.1
+
+*.cdninstagram.com = server:1.1.1.1
 *.tvb.com = server:1.0.0.1
 *.twitter.com = server:1.0.0.1
 *.fb.com = server:1.0.0.1

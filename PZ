@@ -345,6 +345,9 @@ GEOIP,CN,DIRECT
 FINAL,PROXY
 
 [Host]
+*.twitter.com = server:1.0.0.1
+*.fb.com = server:1.0.0.1
+*.fbcdn.net = server:1.0.0.1
 *.google.com = server:8.8.8.8
 *.facebook.com = server:1.1.1.1
 *.instagram.com = server:1.1.1.1

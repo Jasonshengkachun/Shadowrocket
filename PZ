@@ -9,6 +9,7 @@ prefer-ipv6 = false
 
 [Rule]
 
+DOMAIN-SUFFIX,*.aliyundrive.com,DIRECT
 DOMAIN-SUFFIX,graph.instagram.com,PROXY
 DOMAIN-SUFFIX,testflight.apple.com,PROXY
 DOMAIN-SUFFIX,ads.cdn.tvb.com,PROXY

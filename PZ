@@ -345,6 +345,10 @@ GEOIP,CN,DIRECT
 FINAL,PROXY
 
 [Host]
+app-measurement.com = server:0.0.0.0
+*.protinmail.com = server:1.0.0.1
+*.protinmail.* = server:1.0.0.1
+*.octocaptcha.com = server:1.0.0.1
 *.now.com = server:1.1.1.1
 *.cdninstagram.com = server:1.1.1.1
 *.tvb.com = server:1.0.0.1

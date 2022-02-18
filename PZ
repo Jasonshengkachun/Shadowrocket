@@ -347,6 +347,8 @@ GEOIP,CN,DIRECT
 FINAL,PROXY
 
 [Host]
+*.fb.me = server:1.0.0.1
+*.fc2.com = server:1.1.1.1
 app-measurement.com = server:0.0.0.0
 *.protinmail.com = server:1.0.0.1
 *.protinmail.* = server:1.0.0.1

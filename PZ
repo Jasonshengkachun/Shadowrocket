@@ -9,6 +9,23 @@ prefer-ipv6 = false
 
 [Rule]
 
+# > Apple CDN
+DOMAIN,aod.itunes.apple.com,DIRECT
+DOMAIN,api.smoot.apple.cn,DIRECT
+DOMAIN,appldnld.apple.com,DIRECT
+DOMAIN,apptrailers.itunes.apple.com,DIRECT
+DOMAIN,gs-loc-cn.apple.com,DIRECT
+DOMAIN,iosapps.itunes.apple.com,DIRECT
+DOMAIN,music.apple.com,DIRECT
+DOMAIN,mvod.itunes.apple.com,DIRECT
+DOMAIN,osxapps.itunes.apple.com,DIRECT
+DOMAIN,supportdownload.apple.com,DIRECT
+DOMAIN,swcdn.apple.com,DIRECT
+DOMAIN,updates-http.cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,ls.apple.com,DIRECT
+DOMAIN-SUFFIX,mzstatic.com,DIRECT
+
+
 DOMAIN-SUFFIX,lianmengapi-lq.snssdk.com,DIRECT
 DOMAIN-SUFFIX,*.aliyundrive.com,DIRECT
 DOMAIN-SUFFIX,graph.instagram.com,PROXY
@@ -322,21 +339,6 @@ IP-CIDR,182.254.116.0/24,DIRECT,no-resolve
 IP-CIDR,203.205.238.0/23,DIRECT,no-resolve
 IP-CIDR,203.205.254.0/23,DIRECT,no-resolve
 
-# > Apple CDN
-DOMAIN,aod.itunes.apple.com,DIRECT
-DOMAIN,api.smoot.apple.cn,DIRECT
-DOMAIN,appldnld.apple.com,DIRECT
-DOMAIN,apptrailers.itunes.apple.com,DIRECT
-DOMAIN,gs-loc-cn.apple.com,DIRECT
-DOMAIN,iosapps.itunes.apple.com,DIRECT
-DOMAIN,music.apple.com,DIRECT
-DOMAIN,mvod.itunes.apple.com,DIRECT
-DOMAIN,osxapps.itunes.apple.com,DIRECT
-DOMAIN,supportdownload.apple.com,DIRECT
-DOMAIN,swcdn.apple.com,DIRECT
-DOMAIN,updates-http.cdn-apple.com,DIRECT
-DOMAIN-SUFFIX,ls.apple.com,DIRECT
-DOMAIN-SUFFIX,mzstatic.com,DIRECT
 
 IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,10.0.0.0/8,DIRECT

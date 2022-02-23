@@ -353,6 +353,7 @@ GEOIP,CN,DIRECT
 FINAL,PROXY
 
 [Host]
+*.qiangdong.xyz = server:8.8.8.8
 *.nowe.com = server:1.0.0.1
 *.bbc.com = server:1.0.0.1
 *.hkgolden.com = server:1.0.0.1

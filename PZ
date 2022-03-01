@@ -9,6 +9,8 @@ prefer-ipv6 = false
 
 [Rule]
 
+DOMAIN,video.c-ctrip.com,DIRECT
+DOMAIN,ma-adx.ctrip.com,DIRECT
 
 # > Apple CDN
 DOMAIN,aod.itunes.apple.com,DIRECT

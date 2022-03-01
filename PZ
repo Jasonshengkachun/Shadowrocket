@@ -28,13 +28,13 @@ DOMAIN,updates-http.cdn-apple.com,DIRECT
 DOMAIN-SUFFIX,ls.apple.com,DIRECT
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
 
+DOMAIN-SUFFIX,p3.pstatp.com,DIRECT
+DOMAIN-SUFFIX,rp.hpplay.cn,DIRECT
+DOMAIN-SUFFIX,mon.snssdk.com,DIRECT
+#DOMAIN-SUFFIX,lianmengapi-lq.snssdk.com,DIRECT
 
-DOMAIN-SUFFIX,*.pstatp.com,DIRECT
-DOMAIN-SUFFIX,*.hpplay.cn,DIRECT
-DOMAIN-SUFFIX,*.snssdk.com,DIRECT
-
-DOMAIN-SUFFIX,lianmengapi-lq.snssdk.com,DIRECT
 DOMAIN-SUFFIX,*.aliyundrive.com,DIRECT
+
 DOMAIN-SUFFIX,graph.instagram.com,PROXY
 DOMAIN-SUFFIX,testflight.apple.com,PROXY
 DOMAIN-SUFFIX,ads.cdn.tvb.com,PROXY

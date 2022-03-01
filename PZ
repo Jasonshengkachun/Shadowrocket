@@ -9,6 +9,9 @@ prefer-ipv6 = false
 
 [Rule]
 
+
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/francis-zhao/quarklist/dist/quarklist.txt,REJECT
+
 # > Apple CDN
 DOMAIN,aod.itunes.apple.com,DIRECT
 DOMAIN,api.smoot.apple.cn,DIRECT

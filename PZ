@@ -30,11 +30,11 @@ DOMAIN,rp.hpplay.cn,DIRECT
 DOMAIN,mon.snssdk.com,DIRECT
 #DOMAIN-SUFFIX,lianmengapi-lq.snssdk.com,DIRECT
 
-DOMAIN-SUFFIX,*.aliyundrive.com,DIRECT
+DOMAIN,aliyundrive.com,DIRECT
 
-DOMAIN-SUFFIX,graph.instagram.com,PROXY
-DOMAIN-SUFFIX,testflight.apple.com,PROXY
-DOMAIN-SUFFIX,ads.cdn.tvb.com,PROXY
+DOMAIN,graph.instagram.com,PROXY
+DOMAIN,testflight.apple.com,PROXY
+DOMAIN,ads.cdn.tvb.com,PROXY
 
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/francis-zhao/quarklist/dist/quarklist.txt,REJECT
 

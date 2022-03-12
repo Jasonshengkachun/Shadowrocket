@@ -1,15 +1,14 @@
 #
 [General]
+update-url = https://raw.githubusercontent.com/Jasonshengkachun/Shadowrocket/main/PZ
 bypass-system = true
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,passenger.t3go.cn,passenger.t3go.cn
 bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
 dns-server = no-system,https://120.53.53.53/dns-query,https://1.12.12.12/dns-query,2402:4e00::,2606:4700:4700::1001,2a10:50c0::ad2:ff
-
 ipv6 = ture
 prefer-ipv6 = ture
 
 [Rule]
-
 # > Apple CDN
 DOMAIN,aod.itunes.apple.com,DIRECT
 DOMAIN,api.smoot.apple.cn,DIRECT

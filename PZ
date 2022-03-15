@@ -45,10 +45,8 @@ DOMAIN-SUFFIX,vungle.com,REJECT
 # 常见广告关键字-拦截
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list, REJECT
 # 常用应用内去广告-拦截
-#DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt, REJECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list, REJECT
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/BiliBili/BiliBili.list,DIRECT
-#DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt,REJECT
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list,REJECT
 DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising_Domain.list,REJECT
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Hijacking/Hijacking.list,REJECT
@@ -63,17 +61,6 @@ DOMAIN-SUFFIX, phloxsub73ulata.com, reject
 DOMAIN-SUFFIX, xxxjmp.com, reject
 DOMAIN-SUFFIX, pitrespite.com, reject
 DOMAIN-SUFFIX, alexametrics.com, reject
-
-#####Jable.tv av吃到饱
-DOMAIN-SUFFIX, asewlfjqwlflkew.com, reject
-DOMAIN-SUFFIX, uus52.com, reject
-DOMAIN-SUFFIX, uus58.com, reject
-DOMAIN-SUFFIX, ddmax20.xyz, reject
-DOMAIN-SUFFIX, ads.exosrv.com, reject
-DOMAIN-KEYWORD, exosrv, reject
-DOMAIN-KEYWORD, asewlfjqwlflkew, reject
-DOMAIN-SUFFIX, tyrantdb.com, reject
-DOMAIN-SUFFIX, adserve.work, reject
 
 #####nfmovies.com 奈菲影视
 DOMAIN-KEYWORD, brushshopy, reject
@@ -117,78 +104,11 @@ DOMAIN-SUFFIX, regulationprivilegescan.top, reject
 DOMAIN-SUFFIX, in-page-push.com, reject
 DOMAIN-SUFFIX, farmcrapsubsist.com, reject
 
-#####avgle.me
-DOMAIN-SUFFIX, jads.co, reject
-DOMAIN-SUFFIX, adxadserv.com, reject
-DOMAIN-SUFFIX, moatads.com, reject
-DOMAIN-SUFFIX, juicyads.in, reject
-DOMAIN-SUFFIX, dtscout.com, reject
-
-#####dilili.tv
-DOMAIN-SUFFIX, 51.la, reject
-DOMAIN-SUFFIX, 51daeka.com, reject
-
 ######porn
 DOMAIN-SUFFIX, trafficjunky.com, reject
 
-#####xvideos
-
-
-##### ja.nyahentai.com
-DOMAIN-SUFFIX, adserver.juicyads.com, reject
-DOMAIN-SUFFIX, poweredby.jads.co, reject
-DOMAIN-SUFFIX, jads.co, reject
-
-##### www.cocomanhua.com
-DOMAIN-SUFFIX, exdynsrv.com, reject
-#DOMAIN-SUFFIX, cloudfront.net, reject
-DOMAIN-SUFFIX, d227cncaprzd7y.cloudfront.net, reject
-DOMAIN-SUFFIX, d10lumateci472.cloudfront.net, reject
-
-##### www.mfkhm.com
-DOMAIN-SUFFIX, new.xiongzhangad.com, reject
-
-##### m.yhdm.io
-DOMAIN-SUFFIX, dvzk66.cn, reject
-DOMAIN-SUFFIX, pu0glv.cn, reject
-
-##### hmtv.me
-DOMAIN-SUFFIX, sentry.io, reject
-
-##### www.porntrex.com/
-#DOMAIN-SUFFIX, ads.bullionyield.com, reject
-
-##### https://www.zhenbuka.com/
-DOMAIN-KEYWORD, dlads, reject
-DOMAIN, dagonghuzhu.com, reject
-#DOMAIN-SUFFIX, byteimg.com, reject
-DOMAIN-KEYWORD, xxshuyuan, reject
-DOMAIN-KEYWORD, haowanyou, reject
-DOMAIN-KEYWORD, dat8,reject
-DOMAIN-KEYWORD, 112wan,reject
-DOMAIN-KEYWORD, dfkj8,reject
-DOMAIN-KEYWORD, mifengv,reject
-DOMAIN-KEYWORD, lieyou,reject
-DOMAIN-KEYWORD, 789htbet,reject
-DOMAIN-KEYWORD, mdapp09,reject
-DOMAIN-KEYWORD, juruigj,reject
-#DOMAIN-KEYWORD, mmiyue,reject
-
 ##### pornhub.com
 DOMAIN-SUFFIX, etahub.com, reject
-
-##### www.hptoon.com
-DOMAIN-SUFFIX, 22c.in,reject
-DOMAIN-SUFFIX, imgxxx.shunxincar.cn, reject
-#DOMAIN-SUFFIX, cc58.oss-cn-beijing.aliyuncs.com, reject
-#DOMAIN-SUFFIX, oss-accelerate.aliyuncs.com, reject
-DOMAIN-SUFFIX, kk.braincf.com, reject
-DOMAIN-SUFFIX, run.haireig.com, reject
-DOMAIN-SUFFIX, d.zxptw.cn, reject
-DOMAIN-SUFFIX, new.xiongzhangad.com, reject
-DOMAIN-SUFFIX, js.users.51.la, reject
-DOMAIN-SUFFIX, maxwellsery.com, reject
-DOMAIN-SUFFIX, annabelleabe.com, reject
 
 ##### https://91mjw.com/
 DOMAIN-SUFFIX,jidukeji.com,REJECT
@@ -213,63 +133,6 @@ DOMAIN-SUFFIX, jspassport.ssl.qhimg.com, reject
 
 ##### https://gimy.tv/ 剧迷tv
 DOMAIN-SUFFIX, ads.superad.cc, reject
-
-##### https://javfan.one/ JAVFAN
-DOMAIN-SUFFIX, isboost.co.jp, reject
-DOMAIN-SUFFIX, boost-next.co.jp, reject
-DOMAIN-SUFFIX, ad-nex.com, reject
-DOMAIN-SUFFIX, aaacompany.net, reject
-DOMAIN-SUFFIX, d24ak3f2b.top, reject
-DOMAIN-SUFFIX, blastcahs.com, reject
-
-##### javtsunami.com
-DOMAIN-SUFFIX, alexametrics.com, reject
-
-##### https://hpjav.tv/ JAVFAN #NSFW
-DOMAIN-SUFFIX, wpncdn.com, reject
-DOMAIN-SUFFIX, exosrv.com, reject
-DOMAIN-SUFFIX, jads.co, reject
-DOMAIN-KEYWORD, toateeli, reject
-DOMAIN-KEYWORD, greenplasticdua, reject
-DOMAIN-KEYWORD, bongacash, reject
-DOMAIN-KEYWORD, bngpt, reject
-DOMAIN-KEYWORD, stunninglover, reject
-DOMAIN-KEYWORD, highwebmedia, reject
-DOMAIN-KEYWORD, jads, reject
-DOMAIN-KEYWORD, trwl1, reject
-#DOMAIN-KEYWORD, vidoza, reject
-DOMAIN-KEYWORD, o333o, reject
-DOMAIN-SUFFIX, ad.pornimg.xyz, reject
-
-##### https://javgg.net/
-DOMAIN-SUFFIX, x2sfa.javgg.eu, reject
-DOMAIN-SUFFIX, xd3r.javgg.eu, reject
-DOMAIN-SUFFIX, p242.plainwrk.name, reject
-
-##### https://www5.javmost.com/
-DOMAIN-KEYWORD, histats, reject
-DOMAIN-KEYWORD, dtscout, reject
-DOMAIN-KEYWORD, adform, reject
-DOMAIN-KEYWORD, mathtag, reject
-DOMAIN-KEYWORD, pagespeed-mod, reject
-DOMAIN-KEYWORD, in-page-push, reject
-
-#### disqus
-DOMAIN-SUFFIX,referrer.disqus.com,REJECT
-DOMAIN-SUFFIX,links.services.disqus.com,REJECT
-DOMAIN-SUFFIX,disqusads.com,REJECT
-DOMAIN,glitter.services.disqus.com,REJECT
-DOMAIN,juggler.services.disqus.com,REJECT
-DOMAIN,tempest.services.disqus.com,REJECT
-DOMAIN,mc.viglink.com,REJECT
-DOMAIN,qa.viglink.com,REJECT
-DOMAIN,ns4.viglink.com,REJECT
-DOMAIN,ns2.viglink.com,REJECT
-DOMAIN,ns3.viglink.com,REJECT
-DOMAIN,apicdn.viglink.com,REJECT
-DOMAIN-SUFFIX,cdn.viglink.com,REJECT
-
-
 
 
 IP-CIDR,91.105.192.0/23,PROXY

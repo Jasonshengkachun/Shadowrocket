@@ -25,10 +25,12 @@ DOMAIN,osxapps.itunes.apple.com,DIRECT
 DOMAIN,supportdownload.apple.com,DIRECT
 DOMAIN,swcdn.apple.com,DIRECT
 DOMAIN,updates-http.cdn-apple.com,DIRECT
-DOMAIN-SUFFIX,ls.apple.com,DIRECT
+DOMAIN-SUFFIX,*.apple.com,DIRECT
+
+
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
-
-
+DOMAIN-SUFFIX,*.servicewechat.com,DIRECT
+DOMAIN,mmbiz.qpic.cn,DIRECT
 DOMAIN,aliyundrive.com,DIRECT
 DOMAIN,graph.instagram.com,PROXY
 DOMAIN,testflight.apple.com,PROXY

@@ -216,6 +216,9 @@ GEOIP,CN,DIRECT
 FINAL,PROXY
 
 [Host]
+*.mzstatic.com = server:119.29.29.29
+resstatic.servicewechat.com = server:119.29.29.29
+mmbiz.qpic.cn = server:119.29.29.29
 *.spotify.com = server:8.8.4.4
 *.spotifycdn.com = server:8.8.8.8
 dler.cloud = server:1.1.1.1

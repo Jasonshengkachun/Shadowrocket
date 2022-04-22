@@ -15,6 +15,10 @@ DOMAIN-SUFFIX,suggestqueries.google.com,PROXY
 DOMAIN-SUFFIX,rp.hpplay.cn,DIRECT
 DOMAIN-SUFFIX,lianmengapi-lq.snssdk.com,DIRECT
 # > Apple CDN
+DOMAIN-SUFFIX,*.icloud.com.cn,DIRECT
+DOMAIN-SUFFIX,gteway.icloud.com,DIRECT
+DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,*.itunes.apple.com,DIRECT
 DOMAIN,aod.itunes.apple.com,DIRECT
 DOMAIN,api.smoot.apple.cn,DIRECT
 DOMAIN,appldnld.apple.com,DIRECT

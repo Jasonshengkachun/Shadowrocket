@@ -9,6 +9,7 @@ ipv6 = false
 prefer-ipv6 = false
 
 [Rule]
+DOMAIN,ads.cdn.tvb.com,PROXY
 DOMAIN-SET,https://anti-ad.net/surge2.txt,REJECT
 DOMAIN-SUFFIX,*.weixin.qq.com,DIRECT
 DOMAIN-SUFFIX,suggestqueries.google.com,PROXY
@@ -40,7 +41,7 @@ DOMAIN,mmbiz.qpic.cn,DIRECT
 DOMAIN,aliyundrive.com,DIRECT
 DOMAIN,graph.instagram.com,PROXY
 DOMAIN,testflight.apple.com,PROXY
-DOMAIN,ads.cdn.tvb.com,PROXY
+
 
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/francis-zhao/quarklist/dist/quarklist.txt,REJECT
 

@@ -9,12 +9,15 @@ ipv6 = false
 prefer-ipv6 = false
 
 [Rule]
+DOMAIN-SUFFIX,*.cmbchina.com,DIRECT
+DOMAIN-SUFFIX,*.icbc.com,DIRECT
+DOMAIN-SUFFIX,*.icbc.com.cn,DIRECT
 DOMAIN,ads.cdn.tvb.com,PROXY
 DOMAIN-SET,https://anti-ad.net/surge2.txt,REJECT
 DOMAIN-SUFFIX,*.weixin.qq.com,DIRECT
 DOMAIN-SUFFIX,suggestqueries.google.com,PROXY
-DOMAIN-SUFFIX,rp.hpplay.cn,DIRECT
-DOMAIN-SUFFIX,lianmengapi-lq.snssdk.com,DIRECT
+DOMAIN-SUFFIX,rp.hpplay.cn,REJECT
+DOMAIN-SUFFIX,lianmengapi-lq.snssdk.com,REJECT
 # > Apple CDN
 DOMAIN-SUFFIX,*.icloud.com.cn,DIRECT
 DOMAIN-SUFFIX,gteway.icloud.com,DIRECT

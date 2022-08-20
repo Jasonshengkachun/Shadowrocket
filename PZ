@@ -146,6 +146,9 @@ GEOIP,CN,DIRECT
 FINAL,PROXY
 
 [Host]
+zhs.futbol = server:8.8.4.4
+*.centos.gatknqh.cn = server:8.8.4.4
+*.zhs.company = server:8.8.4.4
 *.mzstatic.com = server:119.29.29.29
 resstatic.servicewechat.com = server:119.29.29.29
 mmbiz.qpic.cn = server:119.29.29.29

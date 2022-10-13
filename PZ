@@ -31,6 +31,7 @@ DOMAIN-SUFFIX,bamgrid.com,Proxy
 DOMAIN-SUFFIX,dssott.com,Proxy
 DOMAIN,cdn.registerdisney.go.com,Proxy
 #netflix
+DOMAIN-SUFFIX,ichnaea-web.netflix.com,Proxy
 DOMAIN-KEYWORD,netflix,Proxy
 DOMAIN-KEYWORD,nflx,Proxy
 DOMAIN-KEYWORD,dualstack.apiproxy-,Proxy

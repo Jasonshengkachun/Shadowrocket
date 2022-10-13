@@ -212,7 +212,7 @@ app-measurement.com = server:0.0.0.0
 *.icloud.com = server:223.6.6.6
 *.icloud.com.cn = server:223.6.6.6
 *.apple.com = server:223.6.6.6
-*.taobao.com = server:223.6.6.6
+*.taobao.com = server:223.5.5.5
 *.qq.com = server:119.29.29.29
 *.tencent.com = server:119.29.29.29
 *.weixin.qq.com = server:119.29.29.29
@@ -230,11 +230,6 @@ app-measurement.com = server:0.0.0.0
 ^http://(www.)?google.cn https://www.google.com 302
 
 [Script]
-nf_rating.js = type=http-request,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-nf_rating.js = type=http-response,requires-body=1,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-# 单集评分
-nf_rating_season.js = type=http-response,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/warmer/.+type=show-ath,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating_season.js
-
 wechat = type=http-response,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,max-size=262144,requires-body=true,timeout=60,debug=true,enable=true
 
 [MITM]
